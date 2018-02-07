@@ -3,3 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.col, [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.vh40 {
+  height: 40vh;
+}
+
+.vh60 {
+  height: 60vh;
+}
+
+.vh40, .vh60 {
+  background-color: #323232;
+}
+
+.white-line {
+  border: 0.5em solid white;
+}
+
+/* .red {
+  outline: 1px solid red;
+  height: 10vh;
+} */
+
+/* .add1, .add2 {
+  background-color: bisque;
+  height: 40vh;
+} */
+
+.title {
+  color: white;
+  background-color: #2c2b2b;
+  height: 5vh;
+}
+
+.space {
+  border: 0.1em solid gray;
+}
