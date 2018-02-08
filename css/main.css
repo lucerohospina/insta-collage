@@ -22,7 +22,8 @@
 }
 
 .white-line {
-  border: 0.5em solid white;
+  height: 10vh;
+  border: 0.2em solid white;
 }
 
 /* .red {
