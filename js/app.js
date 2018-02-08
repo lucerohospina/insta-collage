@@ -57,6 +57,7 @@ window.addEventListener('load', function() {
   };
   firebase.initializeApp(config);
 
+  // Iniciando autentificación con Google
   var provider = new firebase.auth.GoogleAuthProvider();
   firebase.auth().useDeviceLanguage();
 
@@ -67,6 +68,8 @@ window.addEventListener('load', function() {
       // The signed-in user info.
       var user = result.user;
       // ...
+    }).then(user => {
+      window.location.href = 'views/collage.html';
     }).catch(function(error) {
       // Handle Errors here.
       var errorCode = error.code;
