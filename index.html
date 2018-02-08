@@ -12,8 +12,10 @@
   <body>
     <section class="container-fluid">
       <div class="row mt-5">
-        <img class="col-sm-6" id="insta-logo" src="assets/images/logo_75.png" alt="logo">
-      <form class="col-sm-6">
+        <div class="col-sm-4  d-none d-sm-none d-md-block">
+            <img id="insta-logo" src="assets/images/logo_75.png" alt="logo">
+        </div>
+      <form class="col-sm-6 offset-sm-2">
         <div class="row">
           <h1 class="col-10 offset-1 col-sm-4 offset-sm-4 text-center mb-5 mt-5">Instagram</h1>
         </div>
@@ -26,27 +28,27 @@
           <input type="password" class="form-control" id="input-password" placeholder="contraseña" required autofocus>
         </div>
         <div class="row">
-          <div class="col-10 offset-1 col-sm-2 offset-sm-5">
+          <div class="col-4 offset-4 col-sm-2 offset-sm-5 mb-3 mt-3">
               <button class="btn btn-primary bg-transparent border-white" id="login-btn" disabled>Iniciar Sesión</button>
           </div>
         </div>
         <div class="row">
-          <p>¿Haz olvidado tu información de inicio de sesión? <a class="text-white" href="#">Obtén ayuda</a></p>
+          <p class="text-center col-10 offset-1 mb-3 mt-3">¿Haz olvidado tu información de inicio de sesión? <a class="text-white" href="#">Obtén ayuda</a></p>
         </div>
-        <div class="row">
-          <hr class="col-2 col-sm-3 border-white">
-          <p class="col-2 ol-sm-2 text-center">o</p>
-          <hr class="col-2 col-sm-3 border-white">
+        <div class="row mb-3 mt-3">
+          <hr class="col-2 col-sm-4 border-white">
+          <p class="col-2 col-sm-1 text-center ">O</p>
+          <hr class="col-2 col-sm-4 border-white">
         </div>
-        <div class="row">
-          <p class="col-10 offset-1 col-sm-4 offset-sm-4" id="login-google"><i class="fab fa-google fa-2x mr-2"></i>Inicia sesión con Google</p>
+        <div class="row text-center">
+          <p class="col-10 offset-1 col-sm-6 offset-sm-3" id="login-google"><i class="fab fa-google fa-2x mr-2"></i>Inicia sesión con Google</p>
         </div>
       </form>
     </div>
-      <footer class="row fixed-bottom">
-        <p class="col-10 offset-1 col-sm-4 offset-sm-4">¿No tienes una cuenta? <a class="text-white" href="#">Regístrate</a></p>
-      </footer>
     </section>
+    <footer class="row">
+        <p class="col-10 offset-1 col-sm-4 offset-sm-7 text-center">¿No tienes una cuenta? <a class="text-white" href="#">Regístrate</a></p>
+    </footer>
       
     <!-- Scripts -->
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>

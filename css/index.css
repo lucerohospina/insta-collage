@@ -11,4 +11,9 @@ form h1 {
 
 #insta-logo {
   height: 85vh;
+  padding: 10%;
+}
+
+#login-google {
+  cursor: pointer;
 }
