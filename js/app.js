@@ -31,11 +31,9 @@ window.addEventListener('load', function() {
       validateEmail = true;
       activeLoginBtn();
       popEmail.classList.add('d-none');
-      // inputEmail.tooltip('hide');
     } else {
       inactiveLoginBtn();
       popEmail.classList.remove('d-none');
-      // inputEmail.tooltip('show');
     }
   });
 
