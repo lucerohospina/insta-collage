@@ -10,8 +10,8 @@ form h1 {
 }
 
 #insta-logo {
-  height: 85vh;
-  padding: 10%;
+  width: 40vw;
+  padding: 2em;
 }
 
 #login-google {
