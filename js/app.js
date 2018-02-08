@@ -3,10 +3,16 @@ window.addEventListener('load', function() {
   var inputEmail = document.getElementById('input-email');
   var inputPassword = document.getElementById('input-password');
   var popEmail = document.getElementById('email-popover');
-  var popPassword = document.getElementById('password-popover')
+  var popPassword = document.getElementById('password-popover');
   var validateEmail = false;
   var validatePassword = false;
   var googleLogin = document.getElementById('login-google');
+
+  loginBtn.addEventListener('click', function(event) {
+    console.log('click');
+    event.preventDefault();
+    window.location.href = 'views/collage.html';
+  });
 
   function activeLoginBtn() {
     if (validateEmail && validatePassword) {
