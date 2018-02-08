@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(to top, rgba(255, 0, 255, 0.493) 5%, rgba(0, 255, 64, 0.658));
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+form h1 {
+  font-family: 'Lobster', cursive !important;
+}
+
+#insta-logo {
+  height: 85vh;
+}

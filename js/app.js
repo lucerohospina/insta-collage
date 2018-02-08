@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
   loginBtn.addEventListener('click', function(event) {
     console.log('click');
     event.preventDefault();
-    window.location.href = 'views/collage.html';
+    window.location.href = 'views/home.html';
   });
 
   function activeLoginBtn() {
@@ -75,7 +75,7 @@ window.addEventListener('load', function() {
       var user = result.user;
       // ...
     }).then(user => {
-      window.location.href = 'views/collage.html';
+      window.location.href = 'views/home.html';
     }).catch(function(error) {
       // Handle Errors here.
       var errorCode = error.code;
