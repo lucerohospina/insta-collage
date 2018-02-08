@@ -1,14 +1,8 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.col, [class*="col-"] {
+/* .col, [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
-  }
+  } */
 
 .vh40 {
   height: 40vh;
@@ -45,6 +39,7 @@
 
 .space {
   border: 0.1em solid gray;
+}
 
 body {
   background: linear-gradient(to top, rgba(255, 0, 255, 0.493) 5%, rgba(0, 255, 64, 0.658));
@@ -59,5 +54,4 @@ form h1 {
 
 #insta-logo {
   height: 85vh;
-
 }
