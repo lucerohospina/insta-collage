@@ -1,5 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: #323232;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.vh20 {
+  height: 20vh;
+}
+
+.vh40 {
+  height: 40vh;
+}
+
+.vh60 {
+  height: 60vh;
 }
